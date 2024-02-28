@@ -1,39 +1,18 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import axiosInstance from "../axiosConfig";
-
 const AnimeList = () => {
   const [animeList, setAnimeList] = useState([]);
 
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  useEffect(() => {
-    // eslint-disable-next-line no-unused-expressions
-    axiosInstance
-      .get("/anime/id")
-      .then((res) => {
-        console.log(res.data);
-        setAnimeList(res.data.data);
-      })
-      .catch((err) => {
-        console.log(err);
-        console.error("gagal mengambil data" + err);
-      });
-  }, []);
-
-  // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     axios
-      .get(`${process.env.REACT_URL_API}/anime/id`)
-      .then((res) => {
-        console.log(res.data);
-        setAnimeList(res.data.data);
+      .get("https://kitsu.io/api/edge/anime")
+      .then((response) => {
+        setAnimeList(response.data.data);
       })
-      .catch((err) => {
-        console.log(err);
-        console.error("gagal mengambil data" + err);
+      .catch((error) => {
+        console.log(error);
       });
   }, []);
-
   return (
     <>
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -43,7 +22,7 @@ const AnimeList = () => {
         >
           LIST ANIME
         </h2>
-        <div className="cards flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center cards">
           {animeList.map((result) => {
             return (
               <a

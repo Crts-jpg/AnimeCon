@@ -3,7 +3,7 @@ import React from "react";
 const AnimeList = () => {
   return (
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <h2 class="text-4xl font-extrabold dark:text-black">ANIME LIST</h2>
+      <h2 class="text-4xl font-extrabold dark:text-black" id="animelist">ANIME LIST</h2>
       <br></br>
       <div class="grid lg:grid-cols-2 lg:gap-y-16 gap-10">
         <a
@@ -14,18 +14,21 @@ const AnimeList = () => {
             <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
               <img
                 class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                src="https://th.bing.com/th/id/OIP.NvHLmUONVsMBZSOxiIs3QwHaHa?w=188&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                 alt="Image Description"
               />
             </div>
 
             <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-500 dark:text-gray-800 dark:group-hover:text-grey">
-                Studio by Preline
+                Naruto Shippudent
               </h3>
               <p class="mt-3 text-gray-600 dark:text-gray-400">
-                Produce professional, reliable streams easily leveraging
-                Preline's innovative broadcast studio
+                Naruto adalah sebuah serial manga dan anime yang bercerita
+                tentang kehidupan tokoh utamanya, Naruto Uzumaki, seorang ninja
+                yang hiperaktif, periang, dan ambisius yang ingin mewujudkan
+                keinginannya untuk mendapatkan gelar Hokage, pemimpin dan ninja
+                terkuat di desanya
               </p>
               <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
                 Rating
@@ -56,18 +59,21 @@ const AnimeList = () => {
             <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
               <img
                 class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
+                src="https://th.bing.com/th/id/OIP.iz43io7dWABw44pwXGpoYQHaD4?w=276&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
                 alt="Image Description"
               />
             </div>
 
             <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-500 dark:text-gray-800 dark:group-hover:text-grey">
-                Onsite
+                Demon Slayer: Kimetsu No yaiba
               </h3>
               <p class="mt-3 text-gray-600 dark:text-gray-400">
-                Optimize your in-person experience with best-in-class
-                capabilities like badge printing and lead retrieval
+                Demon Slayer: Kimetsu no Yaiba adalah sebuah seri manga Jepang
+                yang ditulis dan diilustrasikan oleh Koyoharu Gotoge. Cerita
+                dalam anime ini berkisah tentang seorang anak laki-laki bernama
+                Tanjiro Kamado. Dia bekerja menjadi seorang pembasmi iblis
+                karena keluarganya dibunuh dan adiknya diubah menjadi Iblis.
               </p>
               <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
                 Rating
@@ -97,17 +103,22 @@ const AnimeList = () => {
             <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
               <img
                 class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
+                src="https://th.bing.com/th/id/OIP.DUZ_82v0LVDvB5becqRKcAHaHZ?rs=1&pid=ImgDetMain"
                 alt="Image Description"
               />
             </div>
 
             <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-500 dark:text-gray-800 dark:group-hover:text-grey">
-                The complete guide to OKRs
+                Jujutsu Kaisen
               </h3>
               <p class="mt-3 text-gray-600 dark:text-gray-400">
-                How to make objectives and key results work for your company
+                Jujutsu Kaisen mengisahkan Yuuji Itadori, seorang siswa SMA
+                berbakat, memiliki fisik yang kuat dan cocok untuk ikut klub
+                olahraga di sekolahnya. Namun, alih-alih bergabung ke klub
+                olahraga, ia justru bergabung ke klub penelitian gaib.
+                Kehidupannya berubah drastis ketika dia harus membantu
+                teman-temannya yang menghadapi bahaya karena sebuah kutukan
               </p>
               <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
                 Rating
@@ -137,17 +148,23 @@ const AnimeList = () => {
             <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
               <img
                 class="group-hover:scale-105 transition-transform duration-500 ease-in-out size-full absolute top-0 start-0 object-cover rounded-xl"
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                src="https://th.bing.com/th/id/OIP.lnYdgVbuthkRbf72g2OIxAHaFM?rs=1&pid=ImgDetMain"
                 alt="Image Description"
               />
             </div>
 
             <div class="grow mt-4 sm:mt-0 sm:ms-6 px-4 sm:px-0">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-500 dark:text-gray-800 dark:group-hover:text-grey">
-                People program models
+                Tokyo Ghoul
               </h3>
               <p class="mt-3 text-gray-600 dark:text-gray-400">
-                Six approaches to bringing your People strategy to life
+                Tokyo Ghoul mengisahkan Ken Kaneki, seorang mahasiswa yang
+                hampir tewas setelah bertemu dengan Rize Kamishiro, seorang
+                wanita yang berubah menjadi ghoul. Ghouls adalah makhluk mirip
+                manusia yang memburu dan memakan daging manusia. Akibat
+                transplantasi organ dari seorang ghoul, Ken Kaneki pun menjadi
+                setengah ghoul dan harus beradaptasi dengan kehidupan baru yang
+                penuh bahaya dan misteri
               </p>
               <p class="mt-4 inline-flex items-center gap-x-1 text-blue-600 decoration-2 hover:underline font-medium">
                 Rating
